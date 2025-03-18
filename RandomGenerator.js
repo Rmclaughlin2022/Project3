@@ -21,4 +21,14 @@ let wordsArray = [];
         document.getElementById('definition').innerText = wordsArray[randomIndex].definition;
     }
 
+    /* Generate Random number method  */
+
+    function GenerateRandomNumber(min, max){
+        return Math.floor(Math.random() * (max - min + 1)) + min; 
+    }
+
+    function getRandomNumber() {
+        const randomNumber = GenerateRandomNumber(1, 5000000);
+        document.getElementById("numberDisplay").innerText = randomNumber;
+    }
 loadWords();
