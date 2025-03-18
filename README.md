@@ -10,7 +10,6 @@ The application is designed with chat gpt giving a single method of the function
 ![Random Color Generator Screenshot](images/screenshot2.png)
 ![Random Color Generator Screenshot](images/screenshot3.png)
 
-*(Make sure to upload a screenshot of your working project and replace the placeholder path)*
 
 ## Technologies Used
 - **HTML**: For structure and content of the webpage.
