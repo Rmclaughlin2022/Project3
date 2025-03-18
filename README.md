@@ -47,6 +47,6 @@ The application is designed with chat gpt giving a single method of the function
 - **CSS Styling**: Improved my understanding of CSS, especially for handling smooth transitions and creating hover effects on buttons.
 - **Randomization in JavaScript**: Learned how to generate random values and use them to update the style properties of HTML elements.
 
-#Live Preview
+## Live Preview
 
 [Visit my Project 3](https://rmclaughlin2022.github.io/Project3/)
