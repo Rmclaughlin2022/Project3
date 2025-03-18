@@ -32,8 +32,8 @@ The application is designed with chat gpt giving a single method of the function
    git clone https://github.com/yourusername/random-color-generator.git
    
 ## Usage Guidelines
-- **Click the "Random Word" button** to generate a new random color.
-- **Click the "Random Number" button** to generate a new random color.
+- **Click the "Random Word" button** to generate a new random word.
+- **Click the "Random Number" button** to generate a new random number.
 - **Click the "Random Color" button** to generate a new random color.
 - **Background Color Change**: The background color of the `.bottom` section will change each time the button is clicked.
 - **Color Code Display**: The generated color code will be displayed below the button in the `#colorDisplay` div.
