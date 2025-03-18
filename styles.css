@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 body {
-    background-image: url("background2.jpg");
+    background-image: url("images/background2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

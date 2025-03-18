@@ -21,4 +21,28 @@ let wordsArray = [];
         document.getElementById('definition').innerText = wordsArray[randomIndex].definition;
     }
 
+    /* Generate Random number method  */
+
+    function GenerateRandomNumber(min, max){
+        return Math.floor(Math.random() * (max - min + 1)) + min; 
+    }
+
+    function getRandomNumber() {
+        const randomNumber = GenerateRandomNumber(1, 5000000);
+        document.getElementById("numberDisplay").innerText = randomNumber;
+    }
+
+    /* Generate random background color  */
+    
+    function GenerateBackgroundColor() {
+        return '#' + Math.floor(Math.random() * 16777215).toString(16);
+    }
+
+    function getRandomColor(){
+        const randomColor = GenerateBackgroundColor();
+        document.querySelector('.bottom').style.backgroundColor = randomColor;
+        document.getElementById("colorDisplay").innerText = randomColor
+    }
+
+
 loadWords();
