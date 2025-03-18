@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Random Generator</title>
+</head>
+    <h1>Random Generator</h1>
+<body>
+
+    <div class = "container">
+
+        <div class = "section top">
+            <h1>Random Word Generator</h1>
+            <!-- Word button, probably needs more styling but it works -->
+            <button onclick="displayRandomWord()">Random Word</button>
+
+            <div id= "word"></div>
+            <div id = "definition"></div>
+
+        </div>
+
+        <div class = "section middle">
+
+            <h1>Random Number Generator</h1>
+
+            <button onclick="getRandomNumber()">Random Number</button>
+            <div id = "numberDisplay"></div>
+
+        </div>
+
+        <div class = "section bottom">
+
+            <h1>Random Color Generator</h1>
+
+            <button onclick="getRandomColor()">Random Color</button>
+            <div id = "colorDisplay"></div>
+
+        </div>
+
+
+</div>
+</body>
+<script src = "RandomGenerator.js"></script>
+</html>
